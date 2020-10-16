@@ -1,0 +1,78 @@
+* {
+	margin:0;
+	padding:0;
+}
+
+html, body {
+	height: 100%;
+	box-sizing : border-box;
+}
+
+
+body {
+	color: #666;
+	font-family: sans-serif;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+p {
+	font-size: 0.8rem;
+	line-height: 1.2rem;
+}
+
+.wh1 {
+
+	height: 30%;
+	width:100%;
+}
+
+.bgc1 {
+		background-color: lightsalmon;
+}
+
+
+.bgc2 {
+		background-color: #fbdfc2;
+}
+
+
+/*  上に戻るボタン　*/
+#page_top{
+width: 40px;
+height: 40px;
+position: fixed;
+right: 10px;
+bottom: 10px;
+background: #961818;
+opacity: 0.6;
+display: none;
+}
+
+#page_top a{
+position: relative;
+display: block;
+width: 40px;
+height: 40px;
+text-decoration: none;
+}
+
+#page_top a::after{
+content: '▲';
+font-size: 14px;
+font-weight: bold;
+color: #fff;
+position: absolute;
+top: 10px;
+bottom: 0;
+right: 0px;
+left: 0;
+margin: auto;
+text-align: center;
+}
+
+
+
